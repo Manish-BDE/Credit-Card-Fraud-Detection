@@ -63,10 +63,10 @@ STEP 15:
   • Producer to create the transactions in JSON format, to be added and queued in Kafka topics.
 
 STEP 16: 
-  • Spark structured streaming program as a Consumer that will consume the data from kafka topics.
+  • Spark structured streaming program as a Consumer that will consume the data from Kafka topics.
 
 STEP 17: 
-  • Retrieve the timestamp and zipcode of the last transaction of each card.
+  • Retrieve the timestamp and zip code of the last transaction of each card.
 
 STEP 18: 
   • Processing in Spark Streaming -
