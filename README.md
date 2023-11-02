@@ -10,7 +10,9 @@ With the increasing digitalization and online transactions, it becomes ever so i
 
 SOLUTION ARCHITECTURE:
 STEP 1: 
-  • Copy “card_transactions.csv” file from local system to HDFS. (a)Table creation steps :
+  • Copy “card_transactions.csv” file from local system to HDFS. 
+
+(a)Table creation steps :
 
 STEP 2:
   • Create the “card_transactions” table in MySQL based on the card_transactions.csv file structure.
