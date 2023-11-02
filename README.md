@@ -36,7 +36,7 @@ STEP 8:
   • Sqoop import member_details from AWS-RDS to Hive. (Incremental load import in append mode based on member_id for every 8hrs)
 
 STEP 9: 
-  • Sqoop import card_transactions to HDFS from MySQL. (This is a one-time full load activity. The card_transactions table will be updated with new transactions while in streaming mode.)
+  • Sqoop import card_transactions to HDFS from MySQL. (This is a one-time full-load activity. The card_transactions table will be updated with new transactions while in streaming mode.)
 
 (c)Scheduling STEPs:
 
@@ -56,7 +56,7 @@ STEP 13:
   • Spark-Hive Integration for spark stream processing.
 
 STEP 14: 
-  • Access the hive tables using apache spark and calculate the UCL.
+  • Access the hive tables using Apache Spark and calculate the UCL.
 
 (d)Streaming STEPs: 
 STEP 15: 
@@ -84,7 +84,7 @@ STEP 20:
   • Schedule a job for validating rules by comparing the incoming data from the POS terminals in JSON format with the values in the lookup table.
 
 STEP 21: 
-  • If the transaction was marked genuine, then we need to update the lookup table with the new timestamp and the zipcode.
+  • If the transaction was marked genuine, then we need to update the lookup table with the new timestamp and the zip code.
 
 STEP 22: 
   • Schedule a job for populating the lookup table.
